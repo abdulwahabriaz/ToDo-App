@@ -1,0 +1,135 @@
+    body {
+        margin: 0;
+        padding: 0;
+        /* align-items: center; */
+    }
+    
+    body {
+        background-image: url("images/black-dark-3d-low-poly-geometric-background_79145-393.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .todohhead {
+        color: white;
+        font-size: 4vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 20px;
+        margin-left: -5px;
+    }
+    
+    .card_post {
+        margin: auto;
+        margin-top: 30px;
+        width: 30%;
+        height: 450px;
+        background-color: white;
+        padding-bottom: 20px;
+        overflow: auto;
+    }
+    
+    .input_div {
+        margin-top: 30%;
+        margin-left: ;
+    }
+    
+    input {
+        border: none;
+        border-bottom: 1px solid gray;
+        width: 50%;
+        font-size: 1vw;
+        height: 19px;
+        margin-left: 40px;
+        margin-top: 50px;
+        outline: none;
+    }
+    
+    .add {
+        background-color: green;
+        border: none;
+        width: 60px;
+        font-family: serif;
+        font-size: 1.4vw;
+        color: white;
+        height: auto;
+        outline: none;
+        border: 1px solid gray;
+        margin-left: -4px;
+        cursor: pointer;
+    }
+    
+    .clear_btn {
+        background-color: green;
+        border: none;
+        /* width: 100px; */
+        font-family: serif;
+        font-size: 1.4vw;
+        color: white;
+        height: auto;
+        outline: none;
+        border: 1px solid gray;
+        /* margin-left: -4px; */
+        cursor: pointer;
+    }
+    
+    input:hover,
+    .add:hover,
+    input:focus {
+        border-bottom: 1px solid green;
+    }
+    
+    .main {
+        border: none;
+        border-bottom: 1px solid gray;
+        width: 50%;
+        font-size: 1vw;
+        height: 19px;
+        margin-left: 55px;
+        padding-left: 5px;
+        outline: none;
+    }
+    
+    .pera_add {
+        position: relative;
+        font-size: 1.3vw;
+        border: none;
+        border-bottom: 1px solid gray;
+        width: 68%;
+        height: 19px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+    }
+    
+    .delete_this {
+        position: absolute;
+        right: -56px;
+        top: -4px;
+        background-color: green;
+        border: none;
+        width: 60px;
+        font-family: serif;
+        font-size: 1.2vw;
+        color: white;
+        height: auto;
+        outline: none;
+        border: 1px solid gray;
+        cursor: pointer;
+    }
+    /* width */
+    
+     ::-webkit-scrollbar {
+        width: 10px;
+    }
+    /* Track */
+    
+     ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+    /* Handle */
+    
+     ::-webkit-scrollbar-thumb {
+        background: green;
+        border-radius: 10px;
+    }
