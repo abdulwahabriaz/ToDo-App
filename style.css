@@ -4,6 +4,12 @@
         /* align-items: center; */
     }
     
+    @media only screen and (max-width: 1020px) {
+        body {
+            display: none;
+        }
+    }
+    
     body {
         background-image: url("images/black-dark-3d-low-poly-geometric-background_79145-393.jpg");
         background-repeat: no-repeat;
